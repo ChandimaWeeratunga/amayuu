@@ -165,7 +165,7 @@ p{
     font-family: 'Open Sans', sans-serif;
     clear: left;
     color: ivory;
-    font-size: 1.3vw;
+    font-size: 11pt;
 }
 #tagline{
     background-color: rgb(80, 174, 206,0.4);
@@ -216,7 +216,7 @@ footer{
     list-style: none;
     font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
-    font-size: 12px;
+    font-size: 10pt;
     color: ivory;
     text-decoration: none;
     
