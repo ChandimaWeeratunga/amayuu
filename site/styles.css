@@ -367,13 +367,13 @@ footer{
 }
 /* ---------------------------------------Media querries start------------------------- */
 
-@media screen and (min-width:801px) and (max-width:1024px){
+@media (min-width:801px) and (max-width:1024px){
     .nav-links{
         width: 60%;  
     }
 }
 
-@media screen and (max-width:768px){
+@media (max-width:768px){
     body{
         overflow-x: hidden;
     }
@@ -425,7 +425,7 @@ footer{
    
 }
 
-@media screen and (min-width: 769px) and (max-width: 800px){
+@media (min-width: 769px) and (max-width: 800px){
     .footer {
         display: block;
         justify-content: center;
