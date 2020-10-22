@@ -373,6 +373,24 @@ footer{
     }
 }
 
+@media (max-width: 800px){
+    .footer {
+        display: block;
+        justify-content: center;
+    }
+    .footer-left{
+        width: 100%;
+    }
+    .footer-right{
+        width: 100%;
+        align-items: center;
+        display: block;
+    }
+    .footer-left img{
+        align-items: center;
+    }
+}
+
 @media (max-width:768px){
     body{
         overflow-x: hidden;
@@ -425,23 +443,6 @@ footer{
    
 }
 
-@media (min-width: 769px) and (max-width: 800px){
-    .footer {
-        display: block;
-        justify-content: center;
-    }
-    .footer-left{
-        width: 100%;
-    }
-    .footer-right{
-        width: 100%;
-        align-items: center;
-        display: block;
-    }
-    .footer-left img{
-        align-items: center;
-    }
-}
 /* ------------------------------ Media querries end --------------------------------- */
 
 .nav-active{
