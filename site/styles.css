@@ -370,7 +370,7 @@ footer{
 
 /* ---------------------------------------Media querries start------------------------- */
 
-@media only screen (min-width:801px) and (max-width:1024px){
+@media only screen and (min-width:801px) and (max-width:1024px){
     .nav-links{
         width: 60%;  
     }
@@ -394,10 +394,11 @@ footer{
     }
 }
 
-@media only screen (max-width:768px){
-    body{
+@media only screen and (max-width:768px){
+    html, body{
         overflow-x: hidden;
     }
+    
     .nav-links{
         position: absolute;
         right: 0px;
