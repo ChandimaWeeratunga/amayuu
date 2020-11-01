@@ -444,6 +444,22 @@ footer{
     .card{
         margin-top: 70px;
     }
+
+    .footer {
+        display: block;
+        justify-content: center;
+    }
+    .footer-left{
+        width: 100%;
+    }
+    .footer-right{
+        width: 100%;
+        align-items: center;
+        display: block;
+    }
+    .footer-left img{
+        align-items: center;
+    }
    
 }
 
