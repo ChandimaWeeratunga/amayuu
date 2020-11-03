@@ -94,6 +94,12 @@ p{
 }
 */
 /* slider start */
+
+/*
+.intro, .vision, .mission, .story, .find, .contact, .team, .card{
+    transition: opacity 1000ms ease-in;
+}*/
+
 #slider{
     overflow: hidden;
 }
