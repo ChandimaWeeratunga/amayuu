@@ -100,92 +100,6 @@ p{
     transition: opacity 1000ms ease-in;
 }*/
 
-#slider{
-    overflow: hidden;
-}
-
-#slider figure{
-    position: relative;
-    width: 400%;
-    margin: 0;
-    left: 0;
-    animation: 16s slider infinite;
-}
-
-#slider figure img{
-    float: left;
-    width: 25%;
-    
-}
-/* slider end */
-
-/* Main content start */
-.content{
-    background-color: rgb(0, 0, 0, 0.5);
-    display: block;
-    margin: auto;
-    width: 80%;
-    padding: 20px;
-    padding-top: 0;
-}
-#rightsub, #leftsub,#middlesub{
-    color: rgb(28, 189, 230);
-    text-transform: uppercase;
-    font-size:4vw;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bolder;
-    letter-spacing: 3px;
-}
-#leftsub{
-    text-align: left;
-}
-#rightsub{
-    text-align: right;
-}
-#middlesub{
-    text-align: center;
-}
-.intro{
-    font-weight: lighter;
-    padding: 20px;
-    text-align: center;
-    font-size: 1vm;
-   
-}
-#why{
-    font-family: 'Bebas Neue', cursive;
-    color: ivory;
-    font-weight: lighter;
-    font-size: 4vw;
-    letter-spacing: 3px;
-
-}
-.content br{
-    margin: 10px 0 10px 0;
-}
-.vision, .mission,.find,.story,.contact,.team, .inqr{
-    margin: 20px 0 20px 0;
-}
-
-.content p,i,pre{
-    font-family: 'Open Sans', sans-serif;
-    clear: left;
-    color: ivory;
-    font-size: 11pt;
-}
-#tagline{
-    background-color: rgb(80, 174, 206,0.4);
-}
-#tagline h1{
-    opacity: 1;
-    font-family: 'Satisfy', cursive;
-    letter-spacing: 3px;
-    font-weight: lighter;
-    color: ivory;
-    text-align: center;
-    padding: 30px;
-    /*text-shadow:3px 3px 2px gray;*/
-}
 
 /* Main content end */
 
@@ -201,6 +115,7 @@ footer{
     flex: 1 100%;
 }*/
 .footer{
+    text-align: center;
     display: flex;
 }
 .footer-left{
